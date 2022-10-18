@@ -8,7 +8,13 @@ project(bags_and_playback)
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
 ## is used, also find other catkin packages
 find_package(catkin REQUIRED COMPONENTS
-  navvis_description/
+  geometry_msgs
+  rviz
+  sensor_msgs
+  urdf
+  xacro
+  gazebo_plugins
+  velodyne_description
 )
 
 ## System dependencies are found with CMake's conventions
